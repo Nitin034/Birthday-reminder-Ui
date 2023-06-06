@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body{
+  background-color: rgb(216, 232, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+ }
+ .chat-windo{
+  width: 40rem;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  
+
+ }
+ .chat-list{
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+ }
+ .chat-list img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+ }
+ .crous{
+  display: flex;
+  width: 100%;
+  align-items: end;
+  justify-content: end;
+ }
+ .chat-list .user-name{
+  position: absolute;
+  margin: 10px 0px 0px 10px;
+  font-size: 20px;
+  font-weight: 600;
+ }
+ .tik{
+  margin: 2px 2px 0px 0px;
+   
+  align-items: center;
+  justify-content: center;
+ }
+.user-msg{
+  margin: 0px 0px 5px 10px;
+}
+.had{
+  width: 100%;
+  text-align: center;
+  justify-content:center;
+  background-color: black;
+  color: aliceblue;
+  font-size: x-large;
+  padding: 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+.buton{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin: 10px;
+
+}
+.butonl{
+  background-color: rgb(73, 175, 87);
+  color: aliceblue;
+  font-size: x-large;
+  padding: 10px;
+  border-radius: 10px ;
+}
+.butonl:hover{
+  background-color: rgb(73, 114, 175);
+}
